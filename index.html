@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketch Board</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="nav">
+        <div class="clr" data-clr="#000"></div>
+        <div class="clr" data-clr="red"></div>
+        <div class="clr" data-clr="blue"></div>
+        <div class="clr" data-clr="yellowgreen"></div>
+        <div class="clr" data-clr="#fff"></div>
+        <output id="ageOutputId">5</output>
+        
+        <button class="clear">Clear</button>
+        <input type="range" name="ageInputName" id="ageInputId" value="5" min="1" max="10" oninput="ageOutputId.value = ageInputId.value">
+    </div>
+    <br>
+    <br>
+    <button id="text-writer">Text</button>
+
+</body>
+</html>
